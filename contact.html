@@ -11,25 +11,30 @@
     </header>
     <main>
 
-        <div class="container pt-3">
-            <p class="page-title text-center p-3">Hebt u een vraag over een van onze diensten? Stel ze gerust!</p>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Naam:</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vb. Jan Janssens">
+        <form>
+            <div class="container pt-3">
+                <p class="page-title text-center p-3">Hebt u een vraag over een van onze diensten? Stel ze gerust!</p>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Naam:</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vb. Jan Janssens" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="jan.janssens@gmail.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Onderwerp:</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Vb. Vraag over zorgtaxi" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Uw vraag:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Typ hier uw vraag..." required></textarea>
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" id="exampleFormControlTextarea1" type="submit" value="Verstuur">
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput2" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="jan.janssens@gmail.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput2" class="form-label">Onderwerp:</label>
-                <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Vb. Vraag over zorgtaxi">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Uw vraag:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Typ hier uw vraag..."></textarea>
-            </div>
-        </div>
+        </form>
         <div class="container">
             <p class="page-title text-center p-3">U kan ons ook steeds telefonisch bereiken of via email:</p>
             <div class="row">
